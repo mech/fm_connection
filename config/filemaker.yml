@@ -1,0 +1,7 @@
+development:
+  default:
+    host: 172.16.26.133
+    account_name: <%= ENV['FM_NAME'] %>
+    password: <%= ENV['FM_PASSWORD'] %>
+    ssl: { verify: false }
+    log: :curl
